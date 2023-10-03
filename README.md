@@ -1,1 +1,0 @@
-# elaborazione-immagini-segnali
