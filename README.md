@@ -28,10 +28,16 @@ Alcuni tipi di segnali che verranno visti nel corso:
 - segnale sismico: si trasmette attraverso i solidi.
 - segnale a grandezze astratte: non sono creati da un fenomeno fisico (ad esempio la variazione delle azioni e investimenti), e vengono rappresentati dall'analisi dei dati.
 
+### Operazioni
 Se si parla di acquisizione e ricezione di un sengale, il segnale esiste già, ma attraverso queste operazioni il segnale viene spostato in appositi mezzi. L'acquisizione avviene tramite dei sensori, che esegue un insieme di operazioni detta __catena di acquisizione__, da cui ottenniamo un segnale digitale (generalmente quindi andiamo da un segnale presente nel mondo esterno, in un segnale digitale appunto).
 
-### Triangolazione
 Se si vuole ad esempio calcolare la distanza di un oggetto, si disegna un triangolo, che tocca l'oggetto, e 2 punti di osservazione.
+
+Il campionamento permette di trasformare un segnale digitale, in un segnale discreto, ovvero campionati nel tempo. Si genera __aliasing__ (sia in immagini, sia con video o audio), se il campionamento è basso.
+
+La quantizzazione associa ad un segnale, dei valori specifici. Fa sempre perdere delle informazioni, a causa dell'errore di quantizzazione. Un segnale quantizzato non è un segnale digitale, infatti può essere continuo. Un segnale digitale, è un segnale quantizzato e campionato.
+
+
 
 ***
 - SNR: Signal to Noise Ratio.
